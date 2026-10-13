@@ -7,47 +7,81 @@
      <title>My first website</title>
      <link rel="stylesheet" href="external.css">
      <style>
-        p{
-            color: aqua;
+        @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Isometra&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Isometra&family=Italianno&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+        
+        
+       
+        header{
+            text-align: center;
+            font-family: "Edu QLD Hand", cursive;
+            font-size: 150%;
+            color: aquamarine;
         }
+
+        .head{
+            color: black;
+            font-size: 100%;
+           
+            
+        }
+
         body{
-            background-color: greenyellow;
+            background-color: beige;
+
+           
+            
+            
+            
         }
 
-        ul{
-            color:white;
+        h1{
+            text-decoration: underline;
+            text-decoration-style: double;
         }
 
-        #hobby{
-            font-family: "Edu QLD Hand", cursive;;
-            font-size: 100%;
+       
+        h2{
+             font-family: "Edu QLD Hand", cursive;
+             text-align: center;
+             color: coral;
         }
 
-        .ideal{
-            font-size: 100%;
+        .contact{
+            text-align: center;
+            font-size: 70%;
+            color: cadetblue;
+            font-family: "Edu QLD Hand", cursive;
+
         }
 
+
+
+        
      </style>
-    
 </head>
-<body     style="text-align:center;">
+<body > 
      <header>
-
         <h1>Jamal Mohidin</h1>
-        <p>Student | Learner</p>
+        <p class="head">Student | Learner</p>
       </header>
 
-      <a href="registration.html">registration</a>
+     
 
 
     <!.. About Me ..!>
 
     <section>
         
-     <img  src="https://th.bing.com/th/id/OIP.qg1ou8j4OWmpcMfDUejheQHaFj?w=174&h=108&c=7&qlt=90&bgcl=2a6d87&r=0&o=6&dpr=1.5&pid=13.1">
+    
        <h2>About Me</h2>
    
-    <p>My name is Jamal Mohidin. I am a passionate learner who likes technology and solving problems.</p>
+    <p> <ul>
+        <li>My name is Jamal Mohidin.</li>
+        <li> I am a passionate learner who likes technology and solving problems.</li>
+        </ul> 
+    </p>
     
     </section>
 
@@ -64,17 +98,22 @@
 
 
 <section>
-    <img src="C:\Users\_.jerm.a.l\Pictures\Screenshots\Screenshot 2026-10-07 113745.png">
-    
- <h2 id="hobby"> My hobbies</h2>
+    <h2 id="hobby"> My hobbies</h2>
 
-<p class="ideal">I enjoy reading, listening to music and playing football</p>
+<p>
+    <ul>
+    <li>I am a passionate learner who likes technology and solving problems</li>
+    </ul>
+</p>
 </section>
 
-<section><h2>Contact Me</h2>
-    <p>Email: jamalmohidin89@gmail.com<br>
+<section>
+    <h2>Contact Me</h2>
+    <p class="contact">
+       Email: jamalmohidin89@gmail.com<br>
        Phone:+254797513465<br>
-       Jamal Mohidin 2026</p>
+       Jamal Mohidin 2026
+    </p>
     </section>
     
 
